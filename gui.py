@@ -43,7 +43,7 @@ def toggle_upload_type():
 
 
 
-my_label = tb.Label(text="Best AV in the world", font=("Helvetica", 40), bootstlyle="default")
+my_label = tb.Label(text="Best AV in the world", font=("Helvetica", 40), bootstyle="default")
 my_label.pack(pady=10)
 
 toggle_button = tb.Button(text="Switch to Directory Upload", bootstyle="secondary", command=toggle_upload_type)
@@ -52,7 +52,7 @@ toggle_button.pack(pady=10)
 file_label= tb.Label(text="", font=("Helvetica", 12), bootstyle="default")
 file_label.pack(pady=10)
 
-image = PhotoImage(file="images/upload_image.png")
+image = PhotoImage(file="images/img1.png")
 
 image_button = tb.Label(image=image)
 image_button.pack(pady=10)
